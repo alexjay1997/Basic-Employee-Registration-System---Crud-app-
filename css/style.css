@@ -1,0 +1,131 @@
+*{
+    margin:0%;
+    padding:0px;
+}
+.page-container{
+height:auto;
+
+
+}
+.header{
+
+padding:10px;
+
+}
+.container{
+max-width:1048px;
+margin:0 auto;
+border:px solid green;
+
+}
+.logo{
+max-width:100%;
+
+float:left;
+}
+.header .container::after {
+    content: ""; 
+    clear: both; 
+    display: table;}
+.logo .logo-name{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 57px;
+    color:#3457aa;
+}
+.nav{
+
+max-width:100%;
+float:right;
+}
+
+
+ .nav ul li{
+     list-style: none;
+     line-height: 56px;
+     width:100px;
+     text-align: center;
+    
+     display:inline-block;
+  
+ }
+ .nav ul li a{
+     text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color:#3446aa;
+    padding:7px 15px 7px 15px;
+
+ }
+ .hero{
+     height:450px;
+     width:100%;
+     background-image: url("../img/hero1.jpg");
+     background-size: cover;
+     background-position: bottom;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+ }
+ .hero-text{
+     position: relative;top:80px;
+        padding:20px;
+        max-width:500px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        height:auto;
+        border:px solid red;
+     color:#ffffff;
+ }
+ .hero-text span{
+     font-size: 18px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .learn-more-btn{
+     padding:7px 16px 7px 16px;
+     border:2px solid white;
+     text-decoration: none;
+     color:white;
+     width:500px;
+     font-size: 18px;
+
+    
+ }
+ .learn-more-btn:hover{
+     background:#3446aa;
+ }
+ .about{
+    padding:30px;
+ }
+ .about-content{
+     border:px solid red;
+     display:flex;
+     justify-content: center;
+   
+     flex-wrap:wrap;
+     flex-direction: row;
+     margin:20px;
+  
+ }
+ .about h2{
+    color: #3446aa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+ }
+ .about-text{
+    flex:1;
+   
+   width:200px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 17px;
+    padding:20px 20px 0px 20px ;
+   
+
+ }
+ .about-image{
+  
+        flex: 1;
+     
+      width:500px;
+ 
+       
+     }
+ 
+ 

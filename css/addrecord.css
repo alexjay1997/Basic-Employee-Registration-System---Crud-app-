@@ -1,0 +1,143 @@
+*{
+
+    margin:0 ;
+   
+}
+.page-container{
+
+    height:auto;
+    background-image:url("../img/login-bg2.jpg");
+
+}
+
+.header{
+    border:px solid red;
+    padding:10px;
+    background: #253e66;
+    
+    }
+    .logo .logo-name{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 57px;
+    color:rgb(253, 253, 253);
+}
+    .header .container::after {
+        content: ""; 
+        clear: both; 
+        display: table;}
+.nav{
+
+   
+
+    
+    border:px solid red;
+   display: flex;
+   flex-wrap: wrap;
+    
+  
+}
+.nav ul li{
+    list-style: none;
+    line-height: 50px;
+    width:100%;
+    margin-top:10px;
+   text-align: center;
+    border:px solid yellow;
+    display:block;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.nav ul li a:hover{
+  color:#2da2d8;
+}
+nav{
+    flex :1 15%;
+    max-width:100%;
+    height:1024px;
+    padding:15px;
+    border:px solid green;
+    background-color: rgba(29 32 35 / 86%);
+    background-attachment: fixed;
+}
+nav li a{
+text-decoration: none;
+color:white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+nav ul{
+   
+   padding:0px;
+}
+.logo{
+    max-width:100%;
+    border:px solid red;
+    float:left;
+    }
+
+.main-content{
+   
+    border:px solid green;
+    height:600px;
+    flex:1 80%;
+    width:500px;
+
+}
+.add-form{
+    padding:20px;
+    margin:50px auto;
+    border-top:12px solid #3446aa;
+    box-shadow:1px 1px 10px 1px rgb(124, 124, 124);
+    width:400px;
+    background-color: #fff;
+    border-radius:12px;
+    background-image: url("../img/texture.png");
+
+}
+.edit-form{
+    padding:20px;
+    margin:50px auto;
+    border-top:12px solid #3446aa;
+    box-shadow:1px 1px 10px 1px rgb(124, 124, 124);
+    width:400px;
+    background-color: #fff;
+    border-radius:12px;
+    background-image: url("../img/texture.png");
+
+}
+input[type=text],input[type=password],input[type=number]{
+    width:350px;
+    padding:10px;
+    border:1px solid  #5563b1 ;
+    outline: none;
+    border-radius:2px;
+    background: white;
+}
+.add-btn{
+    width:180px;
+    background: #3446aa;
+    color:white;
+    border:none;
+    padding:10px;
+}
+
+.tblview table{
+
+    width:80%;
+    margin:80px auto;
+    border-collapse: collapse;
+    border:1px solid grey;
+    background: white;
+    
+ }
+ th,td{
+     padding:10px;
+     text-align: center;
+     border-bottom:1px solid grey;
+ }
+ label{
+     line-height: 30px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#3446aa;
+
+ }

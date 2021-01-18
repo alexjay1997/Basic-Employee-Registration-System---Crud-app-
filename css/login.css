@@ -1,0 +1,77 @@
+
+body{
+    max-width:100%;
+    background-image: url("../img/login-bg2.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding:40px;
+ }
+/*login form*/
+.login-form{
+   margin:100px auto;
+   background: rgba(255,255,255);
+    padding:40px;
+    border-top:12px solid #3630ad;
+    
+    font-family:calibri;
+    height:auto;
+    max-width:400px;
+    color:#3630ad;
+    border-radius:15px;
+
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+ border:2px solid rgb(72, 72, 175);
+  box-sizing: border-box;
+  outline: none;
+  border-radius:10px;
+}
+
+.button {
+  background-color: #3e2091;
+  color: white;
+  padding: 15px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  border:none;
+  border-radius:10px;
+float:left;
+ 
+}
+
+button:hover {
+  background-color: #4741c6;;
+}
+
+
+form a{
+   
+  margin: 0 auto;
+   color:#0f409b;
+   float:right;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.cancel-btn{
+   
+   width:100%;
+   text-align: center;
+}
+
+
+
+
+
+
+
+
